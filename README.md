@@ -1,12 +1,18 @@
 # FIMP
 **Fancy Inline Moderation Popup**
+
 Author: **effone** (effone@mybb.com)
 
 No, its not a plugin, but an addon script for MyBB forum software to modernize the "Inline Moderation Tool".
 
 **Installation**
+
 As said; its not a MyBB plugin, hence you don't need to activate anything from ACP.
 Only upload the `dist` content in `jscripts` folder, add following 2 resources in `showthread` and `forumdisplay` template. Rest all will be taken care by the script.
+
+`<link type="text/css" rel="stylesheet" href="jscripts/fimp/fimp.min.css" />`
+
+`<script type="text/javascript" src="{$mybb->asset_url}/jscripts/fimp/fimp.min.js?ver=100"></script>`
 
 Visit https://mybb.group for support / assistance.
 
